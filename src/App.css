@@ -1,0 +1,53 @@
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  pad: 20px;
+  padding-top: 100px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.containernav{
+  padding: 30px 0px;
+  max-width: 440px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.header{
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background-color: black;
+}
+
+h1{
+  color: aliceblue;
+}
+
+.containerhead{
+  max-width: 440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+}
+
+.iconwrapper{
+  color: white;
+  text-decoration: none;
+}
